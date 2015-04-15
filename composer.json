@@ -1,0 +1,12 @@
+{
+    "name": "mikemarcacci/reins-php",
+    "authors": [
+        {
+            "name": "Mike Marcacci",
+            "email": "mike.marcacci@gmail.com"
+        }
+    ],
+    "require": {
+        "predis/predis": "*"
+    }
+}
