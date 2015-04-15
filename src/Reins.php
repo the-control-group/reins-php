@@ -36,7 +36,7 @@ EOS;
 		// put the interval in µs
 		$interval = $interval * 1000;
 		$since = microtime(true) - $interval;
-		$key = $id . '::' . $interval;
+		$key = $id . ':' . $interval;
 
 		// run the script in redis
 		return $this->client->eval(self::$script, 1, $key, $since, $interval);

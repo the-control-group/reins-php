@@ -1,12 +1,21 @@
 {
-    "name": "mikemarcacci/reins-php",
+    "name": "tcg/reins",
+    "type": "library",
+    "description": "",
+    "keywords": ["rate limit","redis"],
+    "license": "",
     "authors": [
         {
             "name": "Mike Marcacci",
             "email": "mike.marcacci@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": { "TCG\\": "src/" }
+    },
     "require": {
         "predis/predis": "*"
     }
 }
+
+
